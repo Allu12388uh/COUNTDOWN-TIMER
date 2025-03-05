@@ -4,7 +4,7 @@ const hours=document.querySelector("#hours");
 const minutes=document.querySelector("#minutes");
 const seconds=document.querySelector("#seconds");
 
- //const mseconds=document.querySelector("#mseconds");
+
 
 const currentYear=new Date().getFullYear();
 const newYear=new Date(`January 1 ${currentYear+1} 00:00:00`);
